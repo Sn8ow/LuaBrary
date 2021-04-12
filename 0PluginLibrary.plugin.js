@@ -1,6 +1,6 @@
 /**
  * @name LuaBrary
- * @version 1.80.1
+ * @version 1.80.2
  * @invite MIMI#5103
  * @authorLink https://twitter.com/8owSn
  * @donate https://www.tipeeestream.com/sn8ow/donation
@@ -137,7 +137,7 @@ module.exports = {
             github_username: "sn8ow",
             twitter_username: "Sn8ow"
         }],
-        version: "1.80.1",
+        version: "1.80.2",
         description: "Gives other plugins utility functions and the ability to emulate v1.",
         github: "https://github.com/Sn8ow/LuaBrary",
         github_raw: "https://raw.githubusercontent.com/Sn8ow/LuaBrary/main/0PluginLibrary.plugin.js?token=ATIKYCXE5TBSLKBSE4O5LFDAOQL4E"
@@ -147,7 +147,7 @@ module.exports = {
             title: "Internal Changes",
             type: "fixed",
             items: [
-                "Changes how elements and jQuery are resolved internally that could cause crashes when jQuery doesn't exist.",
+                "Fixed Add New Updates.",
             ]
         },
     ],
