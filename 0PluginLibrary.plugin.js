@@ -1,12 +1,12 @@
 /**
  * @name LuaBrary
- * @version 1.80.2
+ * @version 1.80.1
  * @invite MIMI#5103
  * @authorLink https://twitter.com/8owSn
  * @donate https://www.tipeeestream.com/sn8ow/donation
  * @website https://github.com/Sn8ow/LuaBrary
- * @source https://raw.githubusercontent.com/Sn8ow/LuaBrary/main/0PluginLibrary.plugin.js?token=ATIKYCXE5TBSLKBSE4O5LFDAOQL4E
- * @updateUrl https://raw.githubusercontent.com/Sn8ow/LuaBrary/main/0PluginLibrary.plugin.js?token=ATIKYCTR6LZ7CNUBY4LSB6DAOQMLW
+ * @source https://raw.githubusercontent.com/Sn8ow/LuaBrary/main/0PluginLibrary.plugin.js
+ * @updateUrl https://raw.githubusercontent.com/Sn8ow/LuaBrary/main/0PluginLibrary.plugin.js
  */
 
 /*@cc_on
@@ -137,7 +137,7 @@ module.exports = {
             github_username: "sn8ow",
             twitter_username: "Sn8ow"
         }],
-        version: "1.80.2",
+        version: "1.80.1",
         description: "Gives other plugins utility functions and the ability to emulate v1.",
         github: "https://github.com/Sn8ow/LuaBrary",
         github_raw: "https://raw.githubusercontent.com/Sn8ow/LuaBrary/main/0PluginLibrary.plugin.js?token=ATIKYCXE5TBSLKBSE4O5LFDAOQL4E"
