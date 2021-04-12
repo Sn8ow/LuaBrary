@@ -137,7 +137,7 @@ module.exports = {
             github_username: "sn8ow",
             twitter_username: "Sn8ow"
         }],
-        version: "1.80.1",
+        version: "1.80.2",
         description: "Gives other plugins utility functions and the ability to emulate v1.",
         github: "https://github.com/Sn8ow/LuaBrary",
         github_raw: "https://raw.githubusercontent.com/Sn8ow/LuaBrary/main/0PluginLibrary.plugin.js?token=ATIKYCXE5TBSLKBSE4O5LFDAOQL4E"
