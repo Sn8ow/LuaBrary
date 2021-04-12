@@ -1,6 +1,6 @@
 /**
  * @name LuaBrary
- * @version 1.80.3
+ * @version 1.80.7
  * @invite MIMI#5103
  * @authorLink https://twitter.com/8owSn
  * @donate https://www.tipeeestream.com/sn8ow/donation
@@ -148,6 +148,7 @@ module.exports = {
             type: "fixed",
             items: [
                 "Fixed Add New Updates.",
+		"Fixed Add Script (Host)"
             ]
         },
     ],
