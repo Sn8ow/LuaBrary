@@ -148,7 +148,7 @@ module.exports = {
             type: "fixed",
             items: [
                 "Fixed Add New Updates.",
-		"Fixed Add Script (Host)",
+		"Fixed Add Script (Host).",
 		"Add Easter Egg"
             ]
         },
