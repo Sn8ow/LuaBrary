@@ -1,6 +1,6 @@
 /**
  * @name LuaBrary
- * @version 1.80.1
+ * @version 1.80.2
  * @invite MIMI#5103
  * @authorLink https://twitter.com/8owSn
  * @donate https://www.tipeeestream.com/sn8ow/donation
