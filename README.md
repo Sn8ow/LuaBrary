@@ -20,6 +20,11 @@
 The library is configurable with the default configuration found in the package.json. If you want to alter or extend these settings it's recommended that you create a config.json in the root directory that the build scripts will read and use. Note that this is merged with the default configuration so you don't have to include all the possible settings in the config.json.
 
 # Thanks
-Big Thanks for de34r1t, Kal1_Linu2, RooT91, B!chesM3, PuutiN, C00dder, IgI_R00T
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/Be3De3Me4"><img src="https://avatars.githubusercontent.com/u/81803305?v=4" width="100px;" alt=""/><br /><sub><b>Be3De3Me4</b></sub></a><br /><a href="#question-kentcdodds" </a> <a href="https://github.com/Sn8ow/YouTubeBotter/graphs/contributors" </a> 
+      <td align="center<tr>
+    <td align="center"><a href="https://github.com/Sn8ow"><img src="https://avatars.githubusercontent.com/u/80784394?v=4" width="100px;" alt=""/><br /><sub><b>Sn_8ow</b></sub></a><br /><a <a href="https://discord.gg/TR5XDAAef5" title="Discord">🤖</a> </a> <a href="https://github.com/Sn8ow/YouTubeBotter/graphs/contributors" </a> 
+
 
 
