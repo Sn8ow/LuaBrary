@@ -1,6 +1,5 @@
 <h1 align="center">LuaBrary</h1>
-
-Easy Plugin Library For BetterDiscord
+<h1 align="center"Easy Plugin Library For BetterDiscord</h1>
   <br/>
   <p align="center">
   <a href="https://discord.gg/TR5XDAAef5" target="_blank">
