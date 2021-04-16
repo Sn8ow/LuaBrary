@@ -31,6 +31,8 @@ The library is configurable with the default configuration found in the `package
 # Social Media
   <p align="Left">
   <img alt="Preview" width="50" alt="Hero image" src="https://natrzezwo.pl/app/uploads/2020/05/logo-youtube.jpg"/>
+     <a href=target="_blank">
+   <a href="https://github.com/Sn8ow/LuaBrary/archive/refs/heads/main.zip" target="_blank">
   <br/>
           
     
