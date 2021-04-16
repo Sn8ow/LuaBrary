@@ -17,12 +17,9 @@
 
   
 
-# Configuration
-
 The library is configurable with the default configuration found in the `package.json`. If you want to alter or extend these settings it's recommended that you create a `config.json` in the root directory that the build scripts will read and use. Note that this is merged with the default configuration so you don't have to include all the possible settings in the `config.json`.
 
-
-### Options
+## Configuration
 
 #### `pluginsFolder`
 Absolute or relative path to the folder containing the plugins that build scripts can build automatically.
@@ -52,9 +49,23 @@ Boolean to determine if the plugin should include the Windows Host Script instal
 
 ***
 
-#### `addInstallScript`
-Boolean to determine if the plugin should include the Windows Host Script install script. This means that users on Windows that double click the plugin will be prompted to automatically install the plugin.
+## Building Plugins
 
+See the example plugin in `examples/ExamplePlugin`. Note how it does not check for updates in `onStart` instead the base class `Plugin` automatically checks for updates using the `github_raw` in the `config.json`.
+
+All plugin styles will set the meta using the plugin name for `name`. `github` and `github_raw` will be used as `website` and `source` options in the meta.
+
+### Plugins Using Lib Plugin (recommended)
+
+To build all plugins in `plugins` folder, run `npm run build_plugin`. To build a single plugin run `npm run build_plugin PluginName`. This will yield `PluginName.plugin.js` in the `releases` folder with the same meta as outlined in the template. The resulting file will automatically check if the plugin library exists, and alert the user if it does not giving them a link to download it.
+
+### ~~Plugins Using Remote Lib~~ THIS IS DEPRECATED
+
+To build all plugins in `plugins` folder, run `npm run build_plugin_remote`. To build a single plugin run `npm run build_plugin_remote PluginName`. This will yield `PluginName.plugin.js` in the `releases` folder with the same meta as outlined in the template. The resulting file will automatically load the library from a remote source (on this repo) if it is not found.
+
+### Plugins w/ Packed Lib (larger file sizes)
+
+To pack a plugin run `npm run build_plugin_packed PluginName`. This will produce a single `PluginName.plugin.js` file in the `releases` folder with the basic meta up top. This version will include all lib functions internally. To pack all plugins in the `plugins` folder run `npm run build_plugin_packed` without arguments.
 
 
 
