@@ -147,7 +147,7 @@ module.exports = {
             title: "Internal Changes",
             type: "Add",
             items: [
-                "Add Discord Server in "Support Server".",
+                "Add Discord Server in Support Server.",
 
             ]
         },
