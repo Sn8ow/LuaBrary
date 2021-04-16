@@ -26,7 +26,29 @@ The library is configurable with the default configuration found in the `package
 
 #### `pluginsFolder`
 Absolute or relative path to the folder containing the plugins that build scripts can build automatically.
+
 **Default**: `"./plugins"`
+
+***
+
+#### `releaseFolder`
+Absolute or relative path to the folder where plugins that are built should be placed.
+
+**Default**: `"./release"`
+
+***
+
+#### `copyToBD`
+Boolean to determine if the built plugin should also be automatically copied over to your BD plugins directory. Very convenient for development.
+
+**Default**: `false`
+
+***
+
+#### `addInstallScript`
+Boolean to determine if the plugin should include the Windows Host Script install script. This means that users on Windows that double click the plugin will be prompted to automatically install the plugin.
+
+**Default**: `false`
 
 ***
 
