@@ -1,7 +1,7 @@
 /**
  * @name LuaBrary
- * @version 1.80.14
- * @invite MIMI#5103
+ * @version 1.80.15
+ * @invite https://discord.gg/TR5XDAAef5
  * @authorLink https://twitter.com/8owSn
  * @donate https://www.tipeeestream.com/sn8ow/donation
  * @website https://github.com/Sn8ow/LuaBrary
@@ -137,7 +137,7 @@ module.exports = {
             github_username: "sn8ow",
             twitter_username: "Sn8ow"
         }],
-        version: "1.80.14",
+        version: "1.80.15",
         description: "Gives other plugins utility functions and the ability to emulate v3.",
         github: "https://github.com/Sn8ow/LuaBrary",
         github_raw: "https://raw.githubusercontent.com/Sn8ow/LuaBrary/main/0PluginLibrary.plugin.js"
@@ -147,7 +147,7 @@ module.exports = {
             title: "Internal Changes",
             type: "Add",
             items: [
-                "Add LuaBrary Libraries.",
+                "Add Discord Server in "Support Server".",
 
             ]
         },
