@@ -145,12 +145,13 @@ module.exports = {
     changelog: [
         {
             title: "Internal Changes",
-            type: "Add, Fix",
+            type: "Add",
             items: [
                 "Add Discord Server in Support Server.",
 		"Fix crash BetterDiscord.",
 		"Add Luas brary for all plugins.",
 		"Fix add new plugins.",
+		"Add 0lugme plugin.",
 
             ]
         },
