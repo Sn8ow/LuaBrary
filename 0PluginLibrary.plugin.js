@@ -149,7 +149,7 @@ module.exports = {
             items: [
                 "Add Discord Server in Support Server.",
 		"Fix crash BetterDiscord.",
-		"Add Lua's brary for all plugins
+		"Add Lua's brary for all plugins.",
 
             ]
         },
