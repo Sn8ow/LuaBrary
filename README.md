@@ -21,10 +21,19 @@
 
 The library is configurable with the default configuration found in the `package.json`. If you want to alter or extend these settings it's recommended that you create a `config.json` in the root directory that the build scripts will read and use. Note that this is merged with the default configuration so you don't have to include all the possible settings in the `config.json`.
 
-# Download
 
-| [Windows 7](https://github.com/Sn8ow/LuaBrary/archive/refs/heads/main.zip)  | [Windows 10](https://github.com/Sn8ow/LuaBrary/archive/refs/heads/main.zip) | [Windows 8.1](https://github.com/Sn8ow/LuaBrary/archive/refs/heads/main.zip) |
-| ------------- | ------------- | ------------- |
+### Options
+
+#### `pluginsFolder`
+Absolute or relative path to the folder containing the plugins that build scripts can build automatically.
+**Default**: `"./plugins"`
+
+***
+
+#### `addInstallScript`
+Boolean to determine if the plugin should include the Windows Host Script install script. This means that users on Windows that double click the plugin will be prompted to automatically install the plugin.
+
+
 
 
 
