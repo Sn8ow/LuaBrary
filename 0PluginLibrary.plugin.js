@@ -137,7 +137,7 @@ module.exports = {
             github_username: "sn8ow",
             twitter_username: "Sn8ow"
         }],
-        version: "1.80.21",
+        version: "1.80.22",
         description: "Gives other plugins utility functions and the ability to emulate v3.",
         github: "https://github.com/Sn8ow/LuaBrary",
         github_raw: "https://raw.githubusercontent.com/Sn8ow/LuaBrary/main/0PluginLibrary.plugin.js"
@@ -145,13 +145,10 @@ module.exports = {
     changelog: [
         {
             title: "Internal Changes",
-            type: "Add",
+            type: "Fixed Errors",
             items: [
                 "Add Discord Server in Support Server.",
-		"Fix crash BetterDiscord.",
-		"Add Luas brary for all plugins.",
-		"Fix add new plugins.",
-		"Add 0lugme plugin.",
+		"Fix NitroGetter emotions in restert Discord.",
 
             ]
         },
