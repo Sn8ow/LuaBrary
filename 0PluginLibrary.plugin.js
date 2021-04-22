@@ -1,9 +1,9 @@
 /**
  * @name LuaBrary
- * @version 1.80.21
+ * @version 1.80.25
  * @invite https://discord.gg/TR5XDAAef5
  * @authorLink https://twitter.com/8owSn
- * @donate https://www.tipeeestream.com/sn8ow/donation
+ * @donate https://paypal.me/pools/c/8yOv6nZzfh
  * @website https://github.com/Sn8ow/LuaBrary
  * @source https://raw.githubusercontent.com/Sn8ow/LuaBrary/main/0PluginLibrary.plugin.js
  * @updateUrl https://raw.githubusercontent.com/Sn8ow/LuaBrary/main/0PluginLibrary.plugin.js
@@ -137,7 +137,7 @@ module.exports = {
             github_username: "sn8ow",
             twitter_username: "Sn8ow"
         }],
-        version: "1.80.22",
+        version: "1.80.25",
         description: "Gives other plugins utility functions and the ability to emulate v3.",
         github: "https://github.com/Sn8ow/LuaBrary",
         github_raw: "https://raw.githubusercontent.com/Sn8ow/LuaBrary/main/0PluginLibrary.plugin.js"
@@ -145,10 +145,9 @@ module.exports = {
     changelog: [
         {
             title: "Internal Changes",
-            type: "Fixed Errors",
+            type: "Add ",
             items: [
-                "Add Discord Server in Support Server.",
-		"Fix NitroGetter emotions in restert Discord.",
+                "Add PayPal donation.",
 
             ]
         },
