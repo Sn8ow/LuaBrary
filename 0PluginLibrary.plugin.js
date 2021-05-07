@@ -149,7 +149,7 @@ module.exports = {
             items: [
                 "Add PayPal donation.",
 		"Fixed Crash Discord.",
-		" Add user Rivioxik As a helper.",
+		"Add user Rivioxik As a helper.",
 
             ]
         },
