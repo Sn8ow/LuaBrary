@@ -1,6 +1,6 @@
 /**
  * @name LuaBrary
- * @version 1.80.26
+ * @version 1.80.27
  * @invite https://discord.gg/TR5XDAAef5
  * @authorLink https://twitter.com/8owSn
  * @donate https://paypal.me/pools/c/8yOv6nZzfh
@@ -137,7 +137,7 @@ module.exports = {
             github_username: "sn8ow",
             twitter_username: "Sn8ow"
         }],
-        version: "1.80.26",
+        version: "1.80.27",
         description: "Gives other plugins utility functions and the ability to emulate v3.",
         github: "https://github.com/Sn8ow/LuaBrary",
         github_raw: "https://raw.githubusercontent.com/Sn8ow/LuaBrary/main/0PluginLibrary.plugin.js"
@@ -149,6 +149,7 @@ module.exports = {
             items: [
                 "Add PayPal donation.",
 		"Fixed Crash Discord.",
+		" Add user Rivioxik As a helper.",
 
             ]
         },
