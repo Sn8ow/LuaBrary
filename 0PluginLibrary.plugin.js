@@ -1,6 +1,6 @@
 /**
  * @name LuaBrary
- * @version 1.80.28
+ * @version 1.80.29
  * @invite https://discord.gg/TR5XDAAef5
  * @authorLink https://twitter.com/8owSn
  * @donate https://paypal.me/pools/c/8yOv6nZzfh
@@ -137,7 +137,7 @@ module.exports = {
             github_username: "sn8ow",
             twitter_username: "Sn8ow"
         }],
-        version: "1.80.28",
+        version: "1.80.29",
         description: "Gives other plugins utility functions and the ability to emulate v3.",
         github: "https://github.com/Sn8ow/LuaBrary",
         github_raw: "https://raw.githubusercontent.com/Sn8ow/LuaBrary/main/0PluginLibrary.plugin.js"
@@ -148,6 +148,7 @@ module.exports = {
             type: "Add ",
             items: [
                 "Fixed a bug where it was not possible to add wallpapers.",
+		"Add support for version: 1650de9bc423c138236936167abd05efcc553328",
 
             ]
         },
