@@ -1,6 +1,6 @@
 /**
  * @name LuaBrary
- * @version 1.80.33
+ * @version 1.80.35
  * @invite https://discord.gg/duXs9mXqgM
  * @authorLink https://twitter.com/8owSn
  * @donate https://paypal.me/pools/c/8yOv6nZzfh
@@ -137,7 +137,7 @@ module.exports = {
             github_username: "sn8ow",
             twitter_username: "Sn8ow"
         }],
-        version: "1.80.33",
+        version: "1.80.35",
         description: "Gives other plugins utility functions and the ability to emulate v3.",
         github: "https://github.com/Sn8ow/LuaBrary",
         github_raw: "https://raw.githubusercontent.com/Sn8ow/LuaBrary/main/0PluginLibrary.plugin.js"
@@ -147,9 +147,8 @@ module.exports = {
             title: "Internal Changes",
             type: "Added",
             items: [
-                "Added new discord server.",
-		"Fixed installing missing plugin.",
-		"My new discord username: MIMI#6848.",
+                "Sorry for no updates",
+		"I fixing NitroGetter plugin...",
 
             ]
         },
